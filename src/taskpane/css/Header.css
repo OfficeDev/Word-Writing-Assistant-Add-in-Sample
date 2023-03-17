@@ -1,0 +1,30 @@
+.header_style {
+    width: 100%;
+    height: 40px;
+    display: "flex";
+    background-color: #056de8;
+    border-radius: 1px;
+    padding: 1px;
+}
+
+.drop_down_button {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: aliceblue;
+    height: inherit;
+    font-weight: bold;
+}
+
+.open_panel_button {
+    margin-right: 20px;
+    float: right;
+    cursor: pointer;
+    width: 20px;
+    height: inherit
+}
+
+.icon_style {
+    align-content: center;
+    color: aliceblue;
+}

@@ -1,0 +1,84 @@
+.main {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.side_panel_body {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    opacity: 0.95;
+    background-color: #252525;
+}
+
+.side_panel_title_root {
+    color: white;
+    display: flex;
+    flex-direction: column
+}
+
+.side_panel_title_settins_wrapper {
+    width: 100%;
+}
+
+.side_panel_title_seting_icon {
+    float: left;
+    color: #056de8;
+    font-size: 130%;
+}
+
+.side_panel_title_close_icon {
+    float: right;
+    color: white;
+    cursor: pointer;
+    font-size: 130%;
+}
+
+.side_panel_email {
+    line-height: 0.6;
+    width: 100%;
+}
+
+.side_panel_email_font {
+    font-size: x-large;
+}
+
+.side_panel_home {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 5px;
+    background-color: #056de8;
+}
+
+.side_panel_list_item {
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.side_panel_list_item:hover {
+    background-color: #056de8;
+}
+
+.side_panel_icon {
+    color: white;
+    width: 30px;
+    float: left;
+    padding: 8px;
+    font-size: 180%;
+    overflow: hidden;
+}
+
+.side_panel_text {
+    position: absolute;
+    left: 40%;
+    padding: 5px 0;
+    font-size: 18px;
+}

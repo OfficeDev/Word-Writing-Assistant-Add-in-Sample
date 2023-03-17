@@ -1,0 +1,47 @@
+/* 
+ * Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.
+ * See LICENSE in the project root for license information.
+ */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.body-109 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.welcome_container {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.welcome_title {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1;
+    width: 100%;
+    align-self: center;
+    height: 50%;
+}
+
+.to_home_button {
+    width: 100%;
+    flex: 1;
+}
