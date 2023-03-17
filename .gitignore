@@ -1,6 +1,20 @@
-node_modules/
-bower_components/
-*.log
+_Store
+node_modules
+/dist
 
-build/
-dist/
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+package-lock.json
