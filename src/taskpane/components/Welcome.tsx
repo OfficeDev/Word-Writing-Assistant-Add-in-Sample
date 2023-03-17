@@ -73,10 +73,11 @@ export class Welcome extends React.Component<WelcomeProps> {
                 <div id="parterners" className='partners'>
                     <span style={{ fontWeight: "bold" }}>Our Partners</span>
                     <div className='partner_wrapper'>
-                        <img src="https://res-1.cdn.office.net/shellux/outlook_24x.59692ba8e1f344194426952916c16896.svg" className='partner_img'></img>
-                        <img src="https://res-1.cdn.office.net/shellux/teams_24x.1da2a0886d3c616a6242b1f249a9bdce.svg" className='partner_img'></img>
-                        <img src="https://res-1.cdn.office.net/shellux/word_24x.21f886b59cf807ae5818458ffa8cecd4.svg" className='partner_img'></img>
-                        <img src="https://res-1.cdn.office.net/shellux/powerpoint_24x.5326aeabae2168deb16e6da825978d4f.svg" className='partner_img'></img>
+                        <img src="./assets/partner1.svg" className='partner_img'></img>
+                        <img src="./assets/partner2.svg" className='partner_img'></img>
+                        <img src="./assets/partner3.svg" className='partner_img'></img>
+                        <img src="./assets/partner4.svg" className='partner_img'></img>
+                        <img src="./assets/partner5.svg" className='partner_img'></img>
                     </div>
                 </div>
             </div>

@@ -5,7 +5,6 @@ import { api as apiConf } from './utility/config';
 import { AxiosRequestConfig } from "axios";
 import { Footer } from './Footer';
 import { Header } from './Header';
-import { flatten } from '@fluentui/react';
 
 const { TextArea } = Input;
 
