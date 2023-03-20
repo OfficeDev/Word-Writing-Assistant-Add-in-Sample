@@ -38,27 +38,6 @@ const request = axios.create({
     timeout: 6000,
 });
 
-const errorHandler = (error: { response: { data: any; status: number; }; }) => {
-    console.log("@@@@@", error);
-    if (error.response) {
-        const data = error.response.data;
-        // const token = storage.get(ACCESS_TOKEN)
-        if (error.response.status === 403) {
-            console.error({
-                message: "Forbidden",
-                description: data.message,
-            });
-        }
-        if (error.response.status === 401 && !(data.result && data.result.isLogin)) {
-            console.error({
-                message: "未登录",
-                description: "权限验证失败",
-            });
-        }
-    }
-    return Promise.reject(error);
-};
-
 export default request;
 
 export { request as axios };
